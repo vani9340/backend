@@ -1,6 +1,6 @@
 const express = require("express")
 const cors = require("cors")
-const port = 8080 || process.env.PORT
+const port =  process.env.PORT || 8080
 const app = express() 
 const fileUpload = require("express-fileupload")
 const {User, Post}= require("./models/Schema")
