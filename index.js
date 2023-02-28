@@ -9,7 +9,7 @@ const mongoose = require("mongoose")
 
 const uri = `mongodb+srv://shivani:shivani@cluster0.lag4824.mongodb.net/?retryWrites=true&w=majority`
 
-app.use(cors({origin:"https://radiant-genie-589ea6.netlify.app/"}))
+app.use(cors({origin:"http://localhost:3000/"}))
 app.use(express.json())
 app.use(fileUpload())
 //Connection to mongoDB
